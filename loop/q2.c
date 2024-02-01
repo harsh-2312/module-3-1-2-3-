@@ -4,18 +4,17 @@
 
 int main(){
      
-     int i=0;
+     int num[50],i;
+     
 
      printf("enter a 5 number:\n");
-     for(i=1; i<=4;i++){
-      scanf("%d ", &i);
-     
+     for(i=0;i<5;i++){
+      scanf("%d", &num[i]);
+     }
 
-     }printf("\n");
-     
-
-    return 0;
+     for(i=0;i<5;i++){
+      printf(" %d ", num[i]);
+     }  
+     return 0; 
+ 
 }
-
-   
-
