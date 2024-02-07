@@ -60,19 +60,23 @@ int main(){
         printf("%d ",sub[row][col]);
       }
    }
-   printf("\nmultiplication arry\n");
-   for( int row=0;row<2;row++){
-    for(int col=0;col<2;col++){
-        mul[row][col]=arr1[row][col]*arr2[row][col];
-        //printf("\n the value of sum is:%d",sum[row][col]);
-    }
-   }
-   for(int row=0;row<2;row++){
-      printf("\n");
-      for(int col=0;col<2;col++){
-        printf("%d ",mul[row][col]);
-      }
-   }
+//    printf("\nmultiplication arry\n");
+//    for( int row=0;row<2;row++){
+//     for(int col=0;col<2;col++){
+//         mul[row][col]=0;
+//         for(int k=0;k<c;k++){
+//             mul[row][col]=arr1[row][k]*arr2[k][col];
+
+//         }
+        
+//     }
+//    }
+//    for(int row=0;row<2;row++){
+//       printf("\n");
+//       for(int col=0;col<2;col++){
+//         printf("%d ",mul[row][col]);
+//       }
+//    }
 
 
 

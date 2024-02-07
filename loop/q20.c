@@ -13,7 +13,7 @@ for(i=1;i<=5;i++){
     for(j=1;j<=10;j++){
 
         num=( i - 1 ) * 10 + j;
-         printf("%d", num);
+         printf("%d\t", num);
          
     }
    printf("\n");
